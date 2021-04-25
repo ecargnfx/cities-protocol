@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+main {
+  margin: 2em;
+}
+
+Button {
+  background-color: orange !important;
+  border: none !important;
+}
+
+button:disabled {
+  background-color: #ccc !important;
+  color: #777 !important;
+}
+
+.text-large {
+  font-size: 2rem !important;
+}
+.gray {
+  background-color: #eee !important;
+}
+
+.list-group-item {
+  background-color: #3D386B !important;
+  color: white;
+}
